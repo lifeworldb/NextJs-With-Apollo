@@ -17,7 +17,11 @@
     "baseUrl": ".",
     "paths": {
       "@libs": ["./lib"],
-      "@providers": ["./providers"]
+      "@providers": ["./providers"],
+      "@state/*": ["./redux/*"],
+      "@utils": ["./utils"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@components/*": ["./src/components/*"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
